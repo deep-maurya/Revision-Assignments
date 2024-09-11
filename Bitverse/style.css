@@ -1,0 +1,337 @@
+header>.container {
+    max-width: 1200px;
+    margin: auto;
+    left: 40px;
+    padding: 16px 32px 16px 32px;
+    border-radius: 16px;
+    border: 1px;
+    justify-content: space-between;
+    background: #34300e;
+    border: 1px solid;
+    box-shadow: 0px 2px 19.5px 0px #DBB80033;
+    margin-top: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+
+nav>div {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+body {
+    background: #0E0E0E;
+
+}
+
+#btn {
+    background: #F9D326;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 16.5px;
+    text-align: left;
+    border-radius: 10px;
+    padding: 19px;
+}
+
+.cont1 {
+    margin-top: 100px;
+    max-width: 1200px;
+    color: white;
+    margin: auto;
+    justify-content: center;
+
+}
+
+.cont1 h3 {
+    font-family: Kanit;
+    font-size: 100px;
+    font-weight: 600;
+    line-height: 144px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+#btc {
+    font-family: Kanit;
+    font-size: 100px;
+    font-weight: 600;
+    line-height: 144px;
+    text-align: left;
+    color: #FECC00;
+}
+
+#k {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    /* position: absolute; */
+    /* margin-left: 10%; */
+    background-image: url('./asset/Graph_Paper.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#main {
+    width: 100%;
+    position: relative;
+    display: block;
+}
+
+#our_products {
+    margin-top: 100px;
+}
+
+#k p {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40.32px;
+    text-align: center;
+}
+
+#k button {
+    width: 175px;
+    height: 55px;
+    padding: 4px;
+    gap: 0px;
+    border-radius: 100px;
+    background: linear-gradient(94.2deg, #FECC00 0%, #FEA800 100%);
+    box-shadow: 2px 2px 20px 0px #FECC0000;
+
+    box-shadow: -2px -2px 20px 0px #FECC0000;
+
+
+}
+
+#bank_img {
+    width: 30%;
+    height: auto;
+    top: 10%;
+    left: 30%;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+    margin-top: -50px;
+}
+
+#star_img {
+    width: 30%;
+    height: auto;
+    top: 1%;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+}
+
+#our_products {
+    margin-top: 10px;
+}
+
+.cont3 {
+    margin-top: 1000px;
+    max-width: 1200px;
+    color: white;
+    margin: auto;
+    justify-content: center;
+}
+
+.cont3 h3 {
+    font-family: Kanit;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: center;
+}
+
+.cont3 p {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33.89px;
+    text-align: center;
+    margin-top: -40px;
+}
+
+.products {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0px 64px 0px 64px;
+}
+
+.products>div {
+    width: 314px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    gap: 8px;
+    border-radius: 12px;
+    border: 1px solid #FEA800;
+}
+
+.products>div img {
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    margin-bottom: 30px;
+}
+
+#our_tokens {
+    margin-top: 100px;
+}
+
+#last {
+    margin-top: 100px;
+}
+
+#social {
+    margin-top: 100px;
+}
+
+.products>div h4 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.2px;
+    letter-spacing: 0.38804346323013306px;
+    text-align: center;
+    border-bottom: 3px solid #F9D326;
+    text-align: center;
+    padding: 30px;
+    margin-top: -50px;
+}
+
+.products>div p {
+    margin-top: 30px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: center;
+
+}
+
+.tokens>div h4 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.2px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.tokens>div p {
+    margin-top: 30px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: center;
+
+}
+
+.tokens>div img {
+    width: 50%;
+    height: auto;
+
+}
+
+.tokens>div table {
+    width: 100%;
+    font-size: 16px;
+}
+
+.tokens>div {
+    width: 314px;
+    box-sizing: border-box;
+
+    justify-content: center;
+    padding: 8px;
+    gap: 8px;
+    border-radius: 12px;
+    border: 1px solid #FEA800;
+
+}
+
+.tokens>div button {
+
+    margin-top: 10px;
+    padding: 10px 40px;
+    gap: 0px;
+    border-radius: 100px;
+    background: linear-gradient(94.2deg, #FECC00 0%, #FEA800 100%);
+    box-shadow: 2px 2px 20px 0px #FECC0000;
+    align-items: center;
+    box-shadow: -2px -2px 20px 0px #FECC0000;
+}
+
+.tokens {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0px 64px 0px 64px;
+}
+
+
+/* Hamburger menu style */
+.hamburger {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+}
+
+/* Mobile Navigation Menu */
+.mobile-nav {
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #34300e;
+    position: absolute;
+    width: 100%;
+    top: 60px;
+    left: 0;
+    padding: 20px;
+    z-index: 10;
+}
+
+.mobile-nav span, .mobile-nav button {
+    text-align: left;
+    padding: 10px 0;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    nav > .nav-links {
+        display: none; /* Hide the default nav links on smaller screens */
+    }
+
+    .hamburger {
+        display: block; /* Show the hamburger icon on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    #main h3 {
+        font-size: 1.2em;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    .mobile-nav {
+        display: flex; /* Show the mobile nav when toggled */
+    }
+}
